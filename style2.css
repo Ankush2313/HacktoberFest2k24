@@ -1,0 +1,45 @@
+
+        /* Add your responsive styles here */
+        @media (max-width: 768px) {
+            /* Styles for screens smaller than 768px */
+            /* Example: Adjust the layout of elements */
+            .nav-logo {
+                display: none;
+            }
+
+            .nav-address {
+                display: none;
+            }
+
+            .india {
+                display: none;
+            }
+        }
+
+        @media (max-width: 480px) {
+            /* Styles for screens smaller than 480px */
+            /* Example: Adjust the font size and padding */
+            .nav-search {
+                font-size: 12px;
+            }
+
+            .search-input {
+                padding: 5px;
+            }
+        }
+
+        @media (max-width: 320px) {
+            /* Styles for screens smaller than 320px */
+            /* Example: Adjust the size and alignment of boxes */
+            .box {
+                width: 100%;
+                margin: 10px 0;
+            }
+
+            .box-content {
+                text-align: center;
+            }
+        }
+
+    
+
